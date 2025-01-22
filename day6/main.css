@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+body {
+    min-width: 320px;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 29, 31);
+    font-style: normal;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+    font-synthesis: none;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: ltr;
+    text-align: left;
+}
+
+
+#nav {
+    border: 2px solid;
+    height: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    --r-globalnav-flyout-close-delay: .12s;
+    --r-globalnav-flyout-link-opacity-duration: .5s;
+    --r-globalnav-flyout-spacing: 88px;
+    --r-globalnav-next-flyout-height: 0px;
+    --r-globalnav-previous-flyout-height: 0px;
+    --r-globalnav-height: 44px;
+    --r-globalnav-color: rgba(0, 0, 0, .8);
+    --r-globalnav-color-secondary: #333336;
+    --r-globalnav-color-hover: #000000;
+    --r-globalnav-font-size: 17px;
+    --globalnav-background: none;
+    --globalnav-backdrop-filter: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 320px;
+    height: 48px;
+    max-height: 44px;
+    font-size: 17px;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
+    backdrop-filter: var(--globalnav-backdrop-filter);
+}
+
+
+#globalnav {
+    --r-globalnav-flyout-close-delay: .12s;
+    --r-globalnav-flyout-link-opacity-duration: .5s;
+    --r-globalnav-flyout-spacing: 88px;
+    --r-globalnav-next-flyout-height: 0px;
+    --r-globalnav-previous-flyout-height: 0px;
+    --r-globalnav-height: 44px;
+    --r-globalnav-color: rgba(0, 0, 0, .8);
+    --r-globalnav-color-secondary: #333336;
+    --r-globalnav-color-hover: #000000;
+    --r-globalnav-font-size: 17px;
+    --globalnav-background: none;
+    --globalnav-backdrop-filter: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 320px;
+    height: 48px;
+    max-height: 44px;
+    font-size: 17px;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
+    backdrop-filter: var(--globalnav-backdrop-filter);
+}
+
+#globalnav .globalnav-content {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1024px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-inline-start: max(22px, var(--r-globalnav-safe-area-inset-start));
+    padding-inline-end: max(22px, var(--r-globalnav-safe-area-inset-end));
+    --r-globalnav-flyout-rate: 0s;
+    --r-globalnav-duration-medium: .24s;
+    z-index: 2;
+}
+
+#globalnav .globalnav-list {
+    cursor: default;
+    margin: 0 -8px;
+    width: auto;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-user-select: none;
+    user-select: none;
+    list-style: none;
+}
+
+#globalnav .globalnav-content {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1024px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-inline-start: max(22px, var(--r-globalnav-safe-area-inset-start));
+    padding-inline-end: max(22px, var(--r-globalnav-safe-area-inset-end));
+    --r-globalnav-flyout-rate: 0s;
+    --r-globalnav-duration-medium: .24s;
+    z-index: 2;
+}
+
+#sub-nav {
+    border: 2px solid red;
+    height: inherit;
+    width: 68%;
+
+}
