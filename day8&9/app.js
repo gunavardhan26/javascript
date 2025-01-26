@@ -23,7 +23,7 @@ simple()
 //     console.log("I am set timeout")
 // }, 3000)
 
-let room = Window.navigator.onLine
+let room = true
 new Promise((resolve, reject) => {
     setTimeout(() => {
         if (room === true) {
@@ -34,3 +34,21 @@ new Promise((resolve, reject) => {
     }, 2000)
 }).then(() => { console.log("Room is cleaned 😀") })
     .catch(() => { console.log("Room is not cleaned") })
+
+
+function example(m, n) {
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (isNaN(m) || isNaN(n)) {
+                return reject();
+            } else {
+                for (let i = m; i < n; i++) {
+                    console.log(i);
+                }
+                return resolve();
+            }
+        }, 5000)
+    }).then(() => { console.log("resloved") })
+        .catch(() => { console.log("Error occured") })
+}
+example(1, "10a")
